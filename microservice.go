@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"Cloud-Native-Go/api"
+	"github.com/MLCSteve/Cloud-Native-Go/api"
 )
 
 func main() {
@@ -29,5 +29,5 @@ func port() string {
 
 func index(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(http.StatusOK)
-	fmt.Fprintf(w, "Welcome to Cloud Native Go (Update).")
+	fmt.Fprintf(w, "Welcome to Cloud Native Go (New Update).")
 }
